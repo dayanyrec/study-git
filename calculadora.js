@@ -4,4 +4,6 @@ var num2 = process.argv[4];
 
 if (operator === '+') {
   console.log(Number(num1) + Number(num2));
+} else if (operator === '-') {
+  console.log(Number(num1) - Number(num2));
 }
