@@ -8,4 +8,6 @@ if (operator === '+') {
   console.log(Number(num1) - Number(num2));
 } else if (operator === 'x') {
   console.log(Number(num1) * Number(num2));
+} else if (operator === '/') {
+  console.log(Number(num1) / Number(num2));
 }
